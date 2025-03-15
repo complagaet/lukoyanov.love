@@ -1,0 +1,14 @@
+.icon-heart {
+    background-image: url("../SVG/heart.svg");
+    width: 32px;
+    height: 31px;
+}
+
+
+
+.icon-dummy {
+    background-image: url("../SVG/dummyIcon.svg");
+    width: 100px;
+    height: 100px;
+    border-radius: 13px;
+}
