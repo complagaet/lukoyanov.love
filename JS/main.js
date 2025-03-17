@@ -1,8 +1,8 @@
-document.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
     bobatron.scanner()
     setTimeout(() => {
         bobatron.scanner()
-    }, 200)
+    }, 1111)
 })
 
 window.addEventListener('resize', () => {
