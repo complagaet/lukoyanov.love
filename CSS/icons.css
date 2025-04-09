@@ -1,5 +1,5 @@
 .icon-heart {
-    background-image: url("../SVG/heart.svg");
+    background-image: url("../RES/heart.svg");
     width: 32px;
     height: 31px;
 }
@@ -7,8 +7,57 @@
 
 
 .icon-dummy {
-    background-image: url("../SVG/dummyIcon.svg");
+    background-image: url("../RES/dummyIcon.svg");
     width: 100px;
     height: 100px;
     border-radius: 13px;
 }
+
+.icon-circled {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: contain;
+    background-color: #FBFBFB;
+}
+.icon-tg {
+    width: 50px;
+    height: 50px;
+    background-image: url("../RES/tg.svg");
+}
+.icon-gmail {
+    width: 50px;
+    height: 50px;
+    background-image: url("../RES/gmail.svg");
+}
+.icon-gh {
+    width: 52px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../RES/gh-.svg");
+}
+.icon-gh-1 {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../RES/gh.svg");
+}
+
+.header-icon-tg {
+    width: 48px;
+    height: 48px;
+    background-image: url("../RES/Header/headerTG.svg");
+}
+.header-icon-gmail {
+    width: 48px;
+    height: 48px;
+    background-image: url("../RES/Header/headerGMAIL.svg");
+}
+.header-icon-gh {
+    width: 48px;
+    height: 48px;
+    background-image: url("../RES/Header/headerGH.svg");
+}
+

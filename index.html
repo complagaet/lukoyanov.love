@@ -3,9 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <title>Лукоянов</title>
+        <link rel="icon" type="image/png" href="RES/favicon.png" />
+        <meta name="og:description" content="Это мой сайт, куда я буду выкладывать свои работы и проекты — пока что тут пусто!"/>
+        <meta property="og:type" content="Blog" />
+        <meta property="og:locale" content="ru_KZ" />
+        <meta property="og:image" content="https://lukoyanov.love/RES/ogLogo.png" />
+        <meta property="og:url" content="https://lukoyanov.love/" />
         <link rel="stylesheet" href="CSS/lazypack.css">
         <link rel="stylesheet" href="CSS/style.css">
         <link rel="stylesheet" href="CSS/icons.css">
+        <script src="JS/CoolHeaderFavicon.js"></script>
         <script src="JS/Bobatron.js"></script>
         <script src="JS/main.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +20,7 @@
     <body>
         <div class="cool-bg"></div>
         <header>
-            <div class="header-icon bobatron">
-                <div class="icon-heart"></div>
+            <div class="header-icon bobatron" id="coolHeaderIcon">
             </div>
             <div class="lukoyanov"></div>
         </header>
@@ -33,7 +39,16 @@
                     <p>Здесь будет мой сайт,<br>а пока тут просто заглушка))</p>
 
                     <h3>Связаться</h3>
-                    <a href="https://t.me/complagaet"><p>Telegram</p></a>
+                    <div class="flex-justify-space-between" style="gap: 10px">
+                        <div class="flex" style="gap: 10px">
+                            <a id="tgButton" class="clickable" href="https://t.me/complagaet"><div class="icon-tg"></div></a>
+                            <a id="ghButton" class="clickable" href="https://github.com/complagaet"><div class="icon-gh"></div></a>
+                            <a style="display: none" id="gmailButton" class="clickable" href="mailto:pavel1luk@gmail.com"><div class="icon-gmail"></div></a>
+                        </div>
+                        <div class="flex" style="gap: 10px">
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
